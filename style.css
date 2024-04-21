@@ -1,29 +1,100 @@
+/* Стили для всего сайта */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-header, footer {
-  background-color: #003366;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
+
 .container {
-  width: 80%;
-  margin: auto;
+    width: 80%;
+    margin: 0 auto;
 }
+
+/* Стили для заголовков и текста */
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Стили для навигационного меню */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Стили для секций */
+
+.section {
+    padding: 50px 0;
+}
+
+/* Стили для таблицы расписания */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Стили для формы обратной связи */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
