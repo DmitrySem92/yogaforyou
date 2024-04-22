@@ -46,7 +46,7 @@ nav ul li a {
 
 /* Вставьте путь к изображению для фона раздела "О нас" */
 #about {
-    background-image: url('pictures/фоновое.webp');
+    background-image: url('pictures/decor1.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,15 +54,15 @@ nav ul li a {
 
 /* Вставьте путь к изображению для фона других разделов, если необходимо */
 #classes {
-    /* Пример: background-image: url('путь/к/другому/изображению.jpg'); */
+    background-image: url('pictures/decor2'); */
 }
 
 #schedule {
-    /* Пример: background-image: url('pictures/рассписание.webp'); */
+    background-image: url('pictures/schedule.webp'); */
 }
 
 #contact {
-    /* Пример: background-image: url('pictures/для контактов.webp'); */
+    background-image: url('pictures/contacts.webp'); */
 }
 
 .section h2 {
