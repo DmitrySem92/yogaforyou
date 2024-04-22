@@ -17,15 +17,7 @@ body {
 header {
     background-color: #343a40; /* Цвет фона шапки */
     color: #fff; /* Цвет текста в шапке */
-    padding: 20px 0;
-}
-
-/* Стили для логотипа */
-header img {
-    height: 1000 px; /* Измените значение на нужный вам размер */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 200px 0;
 }
 
 
