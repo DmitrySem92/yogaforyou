@@ -44,25 +44,28 @@ nav ul li a {
     padding: 50px 0;
 }
 
-/* Вставьте путь к изображению для фона раздела "О нас" */
+/* Фоновое изображение для раздела "О нас" */
 #about {
-    background-image: url('pictures/decor1.webp');
+    background-image: url('pictures/back.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* Вставьте путь к изображению для фона других разделов, если необходимо */
-#classes {
-    background-image: url('pictures/decor2'); */
-}
-
+/* Фоновое изображение для раздела "Расписание" */
 #schedule {
-    background-image: url('pictures/schedule.webp'); */
+    background-image: url('pictures/schedule.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+/* Фоновое изображение для раздела "Контакты" */
 #contact {
-    background-image: url('pictures/contacts.webp'); */
+    background-image: url('pictures/contacts.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section h2 {
