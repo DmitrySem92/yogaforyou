@@ -1,10 +1,10 @@
-/* Общие стили */
+/* Общие стили для всего сайта */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #f8f8f8; /* Фон страницы */
+    color: #333; /* Основной цвет текста */
 }
 
 .container {
@@ -13,9 +13,10 @@ body {
     padding: 20px 0;
 }
 
+/* Стили для шапки сайта */
 header {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #343a40; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста в шапке */
     padding: 20px 0;
 }
 
@@ -41,6 +42,27 @@ nav ul li a {
 /* Стили для разделов */
 .section {
     padding: 50px 0;
+}
+
+/* Вставьте путь к изображению для фона раздела "О нас" */
+#about {
+    background-image: url('pictures/фоновое.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Вставьте путь к изображению для фона других разделов, если необходимо */
+#classes {
+    /* Пример: background-image: url('путь/к/другому/изображению.jpg'); */
+}
+
+#schedule {
+    /* Пример: background-image: url('pictures/рассписание.webp'); */
+}
+
+#contact {
+    /* Пример: background-image: url('pictures/для контактов.webp'); */
 }
 
 .section h2 {
@@ -76,4 +98,12 @@ form button {
 
 form button:hover {
     background-color: #555;
+}
+
+/* Стили для подвала сайта */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
