@@ -110,3 +110,37 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Стили для улучшения внешнего вида таблицы расписания */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Убирает двойные границы */
+    margin-bottom: 20px; /* Добавляет пространство под таблицей */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Добавляет границу ячейкам */
+    text-align: left;
+    padding: 8px; /* Увеличивает отступы внутри ячеек */
+}
+
+th {
+    background-color: #f2f2f2; /* Добавляет фон заголовкам */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Добавляет чередующийся фон строкам */
+}
+
+/* Стили для заголовков секций */
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem; /* Добавляет пространство под заголовком */
+    text-align: center; /* Центрирует заголовок */
+}
+
+/* Добавление отступов для параграфов */
+p {
+    margin-bottom: 1rem; /* Добавляет пространство под параграфом */
+}
+
